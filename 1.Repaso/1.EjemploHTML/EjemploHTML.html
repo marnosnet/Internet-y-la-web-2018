@@ -6,18 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        body{
+            margin: 0;
+        }
         #cuerpo {
             max-width: 800px;
             margin: 0 auto;
+        }
+        #pie {
+            background: black;
+            color: white;
+            font-weight: bold;
+            margin: 0;
+            padding: 10px;
+        }
+        p, a {
+            margin: 10px;
+            /*border: 5px solid red;*/
+            padding: 20px;
+        }
+        span{
+            color: blue;
+        }
+        /* Cuadro Negro */
+        .cn {
+            background: black;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            float: left;
+        }
+        /* Cuadro Blanco */
+        .cb {
+            background: white;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            float: left;
+        } 
+        .select {
+            border-color: red;
+        }
+        .clear {
+            clear: both;
         }
     </style>
 </head>
 <body>
     <div id="cuerpo">
             <h1>Titulo</h1>
+            <p>Texto Texto Texto Texto Texto Texto <span>Texto Texto</span>  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
+            <p>Texto <strong>importante!</strong> Texto <b>Texto</b>  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
             <p>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
-            <p>Texto <strong>importante!</strong> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
-            <p>Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto </p>
+            <p>Texto1</p><p>Texto2</p>
+            <span class="cn"></span><span class="cb"></span>
+            <span class="cn"></span><span class="cb"></span>
+            <span class="cn"></span><span class="cb"></span>
+            <span class="cn"></span><span class="cb"></span>
+            <span class="cn select"></span><span class="cb"></span>
+            <span class="cn"></span><span class="cb"></span>
+            <span class="cn select"></span><span class="cb"></span>
+            <span class="cn"></span><span class="cb"></span>
+            <span class="cn"></span><span class="cb"></span>
+            <span class="cn"></span><span class="cb"></span>
+            <div class="clear"></div>
+    </div>
+    <hr>
+    <div id="pie">
+        <a href="http://www.google.com.ar" target="_black">Google</a> <a href="http://facebook.com" target="_black">Facebook</a> 
     </div>
     
 </body>
